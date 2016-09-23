@@ -1,0 +1,378 @@
+/*
+
+Theme Name: Festival TLC Asia
+
+Theme URI: http://tlcfestival.maverickswebsolutions.com/
+
+Description: his theme is only made for TLC Asia Festival. 
+
+Version: 1.0
+
+Author: Mac Grover Pinuela
+
+Author URI: http://facebook.com/mac2xgrover
+
+Tags: festival,channel,bootstrap,mac2xgrover
+
+License: GNU General Public License v2.0 & Apache License 2.0
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/licenses/LICENSE-2.0
+
+
+*/
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+
+.top-line {
+  border-top: 15px solid #9f1f1e;
+}
+
+.logo-wrap{
+  text-align: center;
+  margin: 45px;
+}
+
+.logo-wrap img{
+  display: inline-block;
+  /*width: 100%*/
+}
+
+.form-change {
+  background: #fff;
+  text-align: center;
+}
+
+.form-change h1 {
+    font-family: Montserrat;
+    font-size: 56px;
+    font-weight: 800;
+    color: #9f1f1e;
+}
+
+.form-change h4 {
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #1ca5b5;
+}
+
+.btn-tlc {
+  background: #9f1f1e;
+  color: #ffffff;
+  border-radius: 26px;
+  width: 40%;
+  font-family: Montserrat;
+  border: 1px solid #9f1f1e;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+  transition: all .4s ease-in;
+}
+
+.btn-tlc:hover {
+  border: 1px solid #9f1f1e;
+  background: #fff;
+  color: #9f1f1e
+
+}
+
+.container-fluid.wizard-tabs{
+  margin: 60px 0px;
+  background: #1ca5b5;
+  color: #fff;
+  padding: 15px 0px 25px 0px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  background: none;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.nav-tabs>li>a:hover {
+  border-color: transparent;
+}
+
+
+.form-container {
+  padding: 30px 15px;
+}
+/*Temporary*/
+
+.wizard {
+    margin: 0px auto;
+    background: #1ca5b5;
+}
+
+    .wizard .nav-tabs {
+        position: relative;
+        margin: 0px auto;
+        margin-bottom: 0;
+    }
+
+    .wizard > div.wizard-inner {
+        position: relative;
+    }
+
+.connecting-line {
+    height: 3px;
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    width: 65%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tab {
+    width: 70px;
+    height: 70px;
+    line-height: 40px;
+    display: inline-block;
+    border-radius: 100px;
+    background: #fff;
+    border: 15px solid #1ca5b5;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+span.round-tab i{
+    color:#555555;
+}
+.wizard li.active span.round-tab {
+    background: #f9c90d;
+    border: 15px solid #1ca5b5;
+    
+}
+.wizard li.active span.round-tab i{
+    color: #5bc0de;
+}
+
+span.round-tab:hover {
+    color: #333;
+    border: 15px solid #1ca5b5;
+}
+
+.wizard .nav-tabs > li {
+    width: 33.333333%;
+}
+
+.wizard .nav-tabs > li a {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+    .wizard .nav-tabs > li a:hover {
+        background: transparent;
+    }
+
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 50px;
+}
+
+.wizard h3 {
+    margin-top: 0;
+}
+
+/*FORMS*/
+
+
+.form-control {
+    border-radius: 4px;
+    border: 1px solid #cccs;
+}
+
+.form-horizontal .control-label {
+    /*font-family: Montserrat;*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+span.required{
+    color: red;
+}
+
+.form-control:focus {
+  border:2px solid #f47b20;
+  box-shadow: none;
+  border-radius: 4px;
+}
+
+.wizard-tabs label {
+    color: rgba(255,255,255,0.6);;
+    position: absolute;
+    bottom: -50%;
+}
+
+.wizard-tabs li.active label {
+    color: #fff;
+}
+
+.wizard-tabs .nav>li.disabled>a {
+  color: #1ca5b5;
+}
+
+
+/*SOCIAL ICONS*/
+
+.social-icons {
+  margin: 0px 0px 30px 0px;
+  text-align: right;
+}
+
+.social-icons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.social-icons ul li {
+  float: left;
+  margin-right: 20px;
+}
+
+/*.social-icons ul li:last-child {
+  margin-right: 0;
+}*/
+
+.social-icons ul li a {
+    text-align: center;
+    color: #fff;
+    background-color: #9f1f1e;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    display: block;
+    font-size: 24px;
+    /* opacity: 0.8; */
+    border-radius: 50px;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+}
+
+.social-icons ul li a:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+/*COLOR SCHEME*/
+.nopad {
+  padding: 0px;
+}
+
+.center-li {
+  margin-top: 90px;
+}
+
+ul.scheme {
+  padding-left: 0px;
+}
+
+.color-scheme {
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #ececec;
+  height: 130px;
+  width: 18%;
+  border-radius: 15px;
+}
+
+.red {
+  background: #9f1f1e;
+}
+
+.blue {
+  background: #1ca5b5;
+}
+
+.orange {
+  background: #f47b20;
+}
+
+.white {
+  background: #fff;
+}
+
+.black {
+  background: #000;
+}
+
+/*TOP FOOTER CONTENT*/
+.img-wrap{
+    border: 6px solid #9f1f1e;
+    border-radius: 6%;
+}
+
+img.semi-round {
+  border-radius: 4%;
+  width: 100%;
+}
+
+.basic-info h3 {
+  color: #1ca5b5;
+}
+
+.illustration {
+  position: relative;
+}
+
+.illustration h5 {
+  color:#9f1f1e;
+  font-weight: 600;
+}
+
+.img-illus img{
+  width: 100%;
+  height: 236px;
+}
+
+.illustration .nopad {
+  padding:1px;
+}
+
+.portfolio {
+  margin-top: 60px;
+}
+
+
+/*FOOTER*/
+
+
+#footer {
+  margin-top: -60px;
+  background: #e5e3e4;
+}
+
+#footer li a.envelope, #footer li a.facebook,  #footer li a.instagram {
+  color: #fff;
+}
+
+
+
+
